@@ -29,7 +29,7 @@ textarea {
 
 #txt-output{
   min-width: 45vh;
-  min-height: 25vh;
+  min-height: 24vh;
   display: block;
   border: 0.2rem solid #571a06;
   border-radius: 1rem;
