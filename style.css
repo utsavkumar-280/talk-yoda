@@ -17,10 +17,11 @@ body{
 }
 textarea {
   min-width: 45vh;
-  
+  color: #571a06;
   display: block;
   padding: 1.5rem;
   margin: 0rem 2rem;
+  border: 0.2rem solid #571a06;
   border-radius: 1rem;
   font-family: 'Special Elite', cursive;
   font-size: 2rem;
@@ -28,24 +29,25 @@ textarea {
 
 #txt-output{
   min-width: 45vh;
-  min-height: 23.8vh;
+  min-height: 25vh;
   display: block;
-  border: 0.2rem solid white;
+  border: 0.2rem solid #571a06;
   border-radius: 1rem;
   padding: 1.5rem;
   margin: 0rem 2rem;
   font-family: 'Special Elite', cursive;
-  color: white;
+  color: #571a06;
 
    
 }
 p{
   font-family: 'Rammetto One', cursive;
   color: white;
+  margin: 0rem 2rem;
 }
 
 header{
-   background:#FACC15;
+   background:#4b1705;
    min-height: 10vh;
    display: flex;
    justify-content: center;
@@ -60,15 +62,14 @@ header{
 }
 
 .hero{
-  background: linear-gradient(rgb(130, 204, 238),transparent),url("/img/minionHero.jpg") ;
+  background: linear-gradient(transparent,rgb(236, 155, 88)),url("/img/yodahero.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left top;
+  background-position: top left;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-
-  align-items: center;
+  align-items: flex-start;
 }
 
 .hero{
@@ -79,17 +80,30 @@ header{
 .box{
   margin: 2rem;
   display: flex;
+  
+}
+
+.ins{
+  color:#4b1705;
+}
+
+.hero #para{
+  margin-top: 25rem ;
+  margin-left: 2rem;
+  text-align: start;
 }
 
 #btn-translate{
+  
   font-size: 2rem;
   margin: 2rem;
   padding: 2rem 4rem;
   border-radius: 1rem;
-  background: #FACC15;
+  background:#4b1705;
   border: white ;
   color: white;
   font-family: 'Rammetto One', cursive;
+  margin-left: 40rem ;
 }
 
 
@@ -99,7 +113,7 @@ footer {
   color: white;
   font-family: 'Rammetto One', cursive;
   padding: 0.5rem;
-  background:#FACC15;
+  background:#4b1705;
   display:flex;
   justify-content: center;
   align-items: center;
