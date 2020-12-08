@@ -57,7 +57,7 @@ header{
   font-size: 8rem;
   color: white;
   font-family: 'Rammetto One', cursive;
-  /* padding: 0rem; */
+  
   
 }
 
@@ -112,7 +112,7 @@ footer {
   
   color: white;
   font-family: 'Rammetto One', cursive;
-  padding: 0.5rem;
+  padding: 0.51rem;
   background:#4b1705;
   display:flex;
   justify-content: center;
